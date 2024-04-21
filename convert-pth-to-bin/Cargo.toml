@@ -1,0 +1,10 @@
+[package]
+authors = ["WU Chen (@wcshds)"]
+name = "convert-pth-to-bin"
+edition.workspace = true
+license.workspace = true
+version.workspace = true
+
+[dependencies]
+focalnet = { path = "../focalnet" }
+burn = { workspace = true }

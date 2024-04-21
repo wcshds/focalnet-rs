@@ -1,0 +1,21 @@
+[workspace]
+resolver = "2"
+members = ["focalnet", "convert-pth-to-bin", "inference"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[workspace.dependencies]
+burn = { git = "https://github.com/tracel-ai/burn.git", features = [
+    "train",
+    "tch",
+    "ndarray",
+    "candle",
+    "wgpu",
+] }
+image = "0.25.1"
+
+[profile.dev]
+opt-level = 3

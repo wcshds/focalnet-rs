@@ -1,0 +1,11 @@
+[package]
+authors = ["WU Chen (@wcshds)"]
+name = "focalnet"
+edition.workspace = true
+license.workspace = true
+version.workspace = true
+
+
+[dependencies]
+burn = { workspace = true }
+image = { workspace = true }

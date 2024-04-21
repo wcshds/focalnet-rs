@@ -1,0 +1,13 @@
+[package]
+authors = ["WU Chen (@wcshds)"]
+name = "inference"
+edition.workspace = true
+license.workspace = true
+version.workspace = true
+
+[dependencies]
+focalnet = { path = "../focalnet" }
+burn = { workspace = true }
+image = { workspace = true }
+once_cell = "1.19.0"
+indexmap = "2.2.6"
